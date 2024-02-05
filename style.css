@@ -58,3 +58,10 @@ body{
     flex-direction: column;
     background-image: url(calculator.jpg);
 }
+@media screen and (max-width:500px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+}
