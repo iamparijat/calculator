@@ -1,0 +1,60 @@
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+    text-shadow: 0 0 5px yellow;
+    margin:  20px 0 50px 0;
+    text-decoration: underline;
+}
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button,.input
+{
+    margin: 0 5px;
+    height: 35px;
+    padding: 7px;
+    width: 50px;
+    background-color:purple;
+    color: yellow;
+    cursor: pointer;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+}
+.calculator
+{
+    border: 5px solid purple ;
+    background-color: rgb(235 242 38);
+    border-radius: 10px;
+    width: 280px;
+}
+.button:hover
+{
+    color:purple;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid darkorchid;
+
+
+}
+.input
+{
+    width: 270px;
+    height: 40px;
+    border: 3px solid darkgoldenrod;
+    background-color: purple;
+    padding: 10px;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(calculator.jpg);
+}
