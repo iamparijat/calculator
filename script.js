@@ -8,9 +8,17 @@ Array.from(buttons).forEach((button)=>{
             document.querySelector('input').value = string;
 
         }
-        else if(e.target.innerHTML == "C")
+        else if(e.target.innerHTML == "DEL")
         {
-            string="";
+            let n = string.length
+            string = string.slice(0,n-1)
+            document.querySelector('input').value = string;
+            document.querySelector('input').value = string;
+
+        }
+        else if(e.target.innerHTML == "AC")
+        {
+           string = ""
             document.querySelector('input').value = string;
 
         }
